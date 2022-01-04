@@ -1,0 +1,54 @@
+.nav_container {
+  height: 60px;
+  width: 100%;
+
+}
+.nav_wraper {
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  align-items: center;
+}
+.nav_left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column:-10px;
+  justify-content: start;
+  align-items: center;
+}
+.language{
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+.input{
+    border:none;
+}
+.nav_search{
+    border: 0.5px solid lightgray;
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+    padding: 5px;
+}
+.nav_center{
+    text-align: center;
+}
+.logo{
+    font-weight: bold;
+
+}
+.nav_right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-self: end;
+    
+}
+.nav_menuitem{
+    font-size: 16PX;
+    cursor: pointer;
+    margin-left:25px ;
+    font-weight: 500;
+}
